@@ -14,6 +14,7 @@
 		CE8628C02A3A7119005FEC95 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8628BF2A3A7119005FEC95 /* RoundedCorners.swift */; };
 		CE8628C22A3A7D01005FEC95 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8628C12A3A7D01005FEC95 /* KeyboardObserver.swift */; };
 		CE8628C42A3A7DCA005FEC95 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8628C32A3A7DCA005FEC95 /* UIApplication+Extension.swift */; };
+		CE8628C82A3ADE62005FEC95 /* schema.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8628C72A3ADE62005FEC95 /* schema.png */; };
 		CED7A18B2A38370000797B20 /* MyTodo3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7A18A2A38370000797B20 /* MyTodo3App.swift */; };
 		CED7A18D2A38370000797B20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7A18C2A38370000797B20 /* ContentView.swift */; };
 		CED7A18F2A38370100797B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED7A18E2A38370100797B20 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		CE8628C12A3A7D01005FEC95 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		CE8628C32A3A7DCA005FEC95 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		CE8628C52A3A9939005FEC95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE8628C72A3ADE62005FEC95 /* schema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = schema.png; path = ../../../../schema.png; sourceTree = "<group>"; };
 		CED7A1872A38370000797B20 /* MyTodo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTodo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED7A18A2A38370000797B20 /* MyTodo3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodo3App.swift; sourceTree = "<group>"; };
 		CED7A18C2A38370000797B20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8628C62A3AD910005FEC95 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				CE8628C72A3ADE62005FEC95 /* schema.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		CED7A17E2A38370000797B20 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		CED7A1892A38370000797B20 /* MyTodo3 */ = {
 			isa = PBXGroup;
 			children = (
+				CE8628C62A3AD910005FEC95 /* img */,
 				CED7A1A12A385B1000797B20 /* Extension */,
 				CED7A18A2A38370000797B20 /* MyTodo3App.swift */,
 				CED7A18C2A38370000797B20 /* ContentView.swift */,
@@ -194,6 +205,7 @@
 			files = (
 				CED7A1922A38370100797B20 /* Preview Assets.xcassets in Resources */,
 				CED7A18F2A38370100797B20 /* Assets.xcassets in Resources */,
+				CE8628C82A3ADE62005FEC95 /* schema.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

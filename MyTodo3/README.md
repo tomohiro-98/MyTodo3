@@ -1,5 +1,25 @@
 # 子どものためのやることリスト
 
+[マークダウンの基本的使い方①](https://qiita.com/tbpgr/items/989c6badefff69377da7)  
+[マークダウンの基本的使い方②](https://backlog.com/ja/blog/how-to-write-markdown/)
+
+ロゴやバナー画像
+サービスのスクリーンショット画像
+必要条件
+システム構成図
+使い方
+インストール方法
+
+# 目次
+
+- アプリ概要🍊
+- セットアップ手順🍊
+- 使い方🍊
+- 便利な機能
+- 開発環境🍊
+- 参考ページ
+- 将来の計画
+
 # アプリ概要
 
 ![アプリ画面](/img/note.png) 
@@ -14,42 +34,6 @@
 
 # セットアップ手順
 
-《注記》
-実行環境にNode.js 、データベースに PostgreSQL を使用します。
-インストールされていない場合は別途インストールが必要です。
-
-1. クローンを実施する
-```zsh
-$ git clone https://github.com/your-username/your-project.git
-```
-2. クローンしたフォルダのpackage.jsonがある階層に移動する
-```zsh
-$ cd your-project
-```
-3. 使用モジュールをインストールする
-```zsh
-$ npm install
-```
-4. データベースを作成する
-```zsh
-$ echo "CREATE DATABASE solomvp;" | psql
-```
-5. マイグレーションをする
-```zsh
-$ npm run migrate
-```
-6. シードをする
-```zsh
-$ npm run seed
-```
-7. バックエンド（サーバー）を起動する
-```zsh
-$ npm run server
-```
-8. フロントエンド（React）を起動する・・・npm start
-```zsh
-$ npm start
-```
 
 以上でセットアップは終了です。お疲れ様でした。
 
@@ -63,56 +47,40 @@ $ npm start
 
 #　便利な機能
 
-本文の編集欄はマークダウン記法に対応しています。
-右下プレビュー画面で反映されて表示します。
+本アプリは重要度と緊急度に応じて４つの分類をしてやることを管理できます。
+これによりやることがたくさんあっても、何を先にやるか、どれが特に大事か
+を自然に考え身につけることができます。
 
-[マークダウンの基本的使い方①](https://qiita.com/tbpgr/items/989c6badefff69377da7)  
-[マークダウンの基本的使い方②](https://backlog.com/ja/blog/how-to-write-markdown/)
+ [時間管理のマトリックス](https://www.hr-doctor.com/news/management/engagement/management_time_effective_2steps-7?content=management_time_effective_2steps-7)
 
-Reactコンポーネント : react-markdown
-
-《使用例》
-以下のようにReactMarkdownタグで囲んだ範囲に反映されます。
-
-```
-<ReactMarkdown className="markdown-preview">
-  {activeNote.content}
-</ReactMarkdown>
-```
 # 開発環境
 
-プログラミング言語 : JavaScript
+プログラミング言語 : Swift
 
-- 実行環境　: node.js
-- フロントサイド : React
-- サーバー : Express
-- データベース : PostgreSQL
-- クエリビルダ : knex
-- Reactコンポーネント : react-markdown
+- 実行環境　: Xcode Version 14.3
+- 実行環境 : macOS Ventura Version 13.4
+- フレームワーク(フロント) : SwiftUI
+- フレームワーク（データベース） : CoreData
 
 スキーマ
-
+🍊
 ![スキーマ](/img/schema.png) 
 
 プログラム構成
-
+🍊
 ![構成](/img/composition.png) 
 
 # 参考ページ
 
-- [node.js](https://nodejs.org/ja/docs)
-- [React](https://ja.legacy.reactjs.org/docs/getting-started.html)
-- [express](https://expressjs.com/ja/4x/api.html)
-- [PostgreSQL](https://www.postgresql.jp/document/15/html/)
-- [Knex](http://knexjs.org/)
-- [react-markdown](https://www.npmjs.com/package/react-markdown?activeTab=readme)
+- [apple公式開発](https://developer.apple.com/jp/develop/)
+- [SF Symbols](https://developer.apple.com/jp/sf-symbols/)
+- [作って学ぶSwift/iOSアプリ入門](https://tech.camph.net/how-to-make-ios-app-with-swift/)
 
 # 将来の計画
 
-- データベースへ修正データを変更する為のPATCHメソッドの実装
-- データベースへの不要データを削除する為のDELETEメソッドの実装
-- データベース使用時の更新日が正常に動かない不具合の修正
-- content内への画像の挿入
-- content内への表の挿入
-- render / Firebaseへのデプロイ
+- アプリアイコンの追加
+- 実機での動作確認
 - レイアウトの調整
+- 定期的なやることの登録
+- やること達成時のポイント付与
+- ポイント交換機能の実装
