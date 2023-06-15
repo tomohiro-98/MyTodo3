@@ -100,9 +100,9 @@
 		CED7A1892A38370000797B20 /* MyTodo3 */ = {
 			isa = PBXGroup;
 			children = (
-				CE8628C62A3AD910005FEC95 /* img */,
 				CED7A1A12A385B1000797B20 /* Extension */,
 				CED7A18A2A38370000797B20 /* MyTodo3App.swift */,
+				CE8628C62A3AD910005FEC95 /* img */,
 				CED7A18C2A38370000797B20 /* ContentView.swift */,
 				CE8628B92A3A31C5005FEC95 /* EditTask.swift */,
 				CED7A19D2A383E8D00797B20 /* CategoryImage.swift */,
