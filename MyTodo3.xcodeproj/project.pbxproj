@@ -40,6 +40,7 @@
 		CE8628BF2A3A7119005FEC95 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		CE8628C12A3A7D01005FEC95 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		CE8628C32A3A7DCA005FEC95 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		CE8628C52A3A9939005FEC95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CED7A1872A38370000797B20 /* MyTodo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTodo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED7A18A2A38370000797B20 /* MyTodo3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodo3App.swift; sourceTree = "<group>"; };
 		CED7A18C2A38370000797B20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 				CED7A1932A38370100797B20 /* Persistence.swift */,
 				CED7A1952A38370100797B20 /* MyTodo3.xcdatamodeld */,
 				CED7A1902A38370100797B20 /* Preview Content */,
+				CE8628C52A3A9939005FEC95 /* README.md */,
 			);
 			path = MyTodo3;
 			sourceTree = "<group>";

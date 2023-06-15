@@ -78,6 +78,7 @@ struct EditTask: View {
                         .cancel(Text("けさない"))
                     ])
                 }
+                .foregroundColor(.blue)
         }
 }
 
