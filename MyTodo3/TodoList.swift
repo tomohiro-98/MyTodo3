@@ -82,9 +82,9 @@ struct TodoList_Previews: PreviewProvider {
         TodoData.create(in: context,
                           category: .ImpUrg_1st, task: "うがい・てあらい")
         TodoData.create(in: context,
-                          category: .ImpNUrg_2nd, task: "しゅくだい")
+                          category: .ImpNUrg_2nd, task: "ほんよみ")
         TodoData.create(in: context,
-                          category: .NImpUrg_3rd, task: "プリントをだす")
+                          category: .NImpUrg_3rd, task: "かきとり")
         TodoData.create(in: context,
                           category: .NImpNUrg_4th, task: "あらいものをだす")
     

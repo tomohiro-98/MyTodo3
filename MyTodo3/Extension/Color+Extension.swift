@@ -14,5 +14,5 @@ extension Color {
     static let tYellow = Color(#colorLiteral(red: 1, green: 0.7569, blue: 0.2235, alpha: 1))
     static let tGreen = Color(#colorLiteral(red: 0.2157, green: 0.7255, blue: 0.5804, alpha: 1))
     static let tTitle = Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
-    static let testColor = Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
+    static let testColor = Color(#colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1))
 }

@@ -13,7 +13,7 @@ struct ContentView: View {
             Color.tBackground
                 .edgesIgnoringSafeArea(.top)
                 .frame(height:0)
-            UserView(image: Image("Image"), userName: "くば はると くん")
+            UserView(image: Image("Image"), userName: "はると くん")
             VStack(spacing: 0) {
                 
                 HStack(spacing: 0) {

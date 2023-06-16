@@ -47,8 +47,10 @@ struct TodoDetailRow: View {
 
 struct TodoDetailRow_Previews: PreviewProvider {
     
-    static let container = PersistenceController.shared.container
-    static let context = container.viewContext
+//    static let container = PersistenceController.shared.container
+//    static let context = container.viewContext
+    
+    static let context = PersistenceController.shared.container.viewContext
     
     static var previews: some View {
 

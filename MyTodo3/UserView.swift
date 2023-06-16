@@ -36,7 +36,7 @@ struct UserView: View {
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-            UserView(image: Image("Image"), userName: "kuba Harutoくん")
+            UserView(image: Image("Image"), userName: "Harutoくん")
             Circle()
         }
     }
