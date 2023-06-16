@@ -68,8 +68,8 @@ struct TodoList_Previews: PreviewProvider {
     static let container = PersistenceController.shared.container
     static let context = container.viewContext
 
-//    static let context = (UIApplication.shared.delegate as! AppDelegate)
-//        .PersistentContainer.viewContext
+    //    static let context = (UIApplication.shared.delegate as! AppDelegate)
+    //        .PersistentContainer.viewContext
 
     static var previews: some View {
         // テストデータの全削除
